@@ -1,0 +1,23 @@
+.failed{
+    background-color: rgba(220, 20, 60, 0.297);
+    color: white !important;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border-radius: 10px;
+
+}
+.succeed{
+    background-color: rgba(0, 128, 0, 0.27);
+    color: white !important;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border-radius: 10px;
+
+
+}

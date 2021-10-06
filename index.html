@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Book - Lister </title>
+</head>
+<body>
+    <div class="container mt-4 col-lg-7 col-md-6 col-sm-12">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-book-open text-danger"></i>
+            A <span class="text-warning">Book</span>  Lister
+        </h1>
+        <form id="book-form">
+            <div class="form-group">
+                <label class="form-label" for="title">Title</label>
+                <input id="title" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="uthor">Author</label>
+                <input id="author" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Isbn">Isbn</label>
+                <input id="isbn" type="text" class="form-control">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-sm btn-outline-warning mt-4 col-12 justify-center ">  
+        </form>
+        <table class="table table-striped mt-5 text-center">
+            <thead>
+              <tr>
+
+                <th scope="col">Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Isbn</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+              
+          </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
