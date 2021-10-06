@@ -1,0 +1,19 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "A simple JavaScript Application with CRUD Functionality and LocalStorage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaliga100/VanillaJs101.git"
+  },
+  "author": "Jordan Tanaliga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanaliga100/VanillaJs101/issues"
+  },
+  "homepage": "https://github.com/tanaliga100/VanillaJs101#readme"
+}
