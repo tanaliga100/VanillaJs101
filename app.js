@@ -44,9 +44,7 @@ class UI {
 
     static removeItem(el){
         if(el.classList.contains('delete')){
-            if(confirm("Are you Sure ?? ")){
-                el.parentElement.parentElement.remove()
-            }
+            el.parentElement.parentElement.remove()
         }
     }
     static validate(mess, addClass){
@@ -90,8 +88,9 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 // Remove Item
 
 document.querySelector('#book-list').addEventListener('click', (e)=> {
-    UI.removeItem(e.target)
-    UI.validate("Book has been removed...", "succeed")
+    const x =  UI.removeItem(e.target)
+    const y =  UI.validate("Book has been removed...", "succeed")
+
 })
 
 
